@@ -1,14 +1,15 @@
 import React from 'react'
-import Supporticon from "../../assets/icons/support-icon.svg";
+import { IOfferCardProps } from '../../interfaces/components/OfferCard';
+import { StyledOfferCard } from './styled';
 
 
-const OfferCard = () => {
-console.log(Supporticon);
+const OfferCard: React.FC<IOfferCardProps> = ({title, img}: IOfferCardProps) => {
 
   return (
-    <div>
-      <p></p>
-    </div>
+    <StyledOfferCard>
+      <img src={img} alt=""  className='card-image'/>
+      <p className='card-title'>{title}</p>
+    </StyledOfferCard>
   );
 }
 

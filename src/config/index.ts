@@ -5,4 +5,20 @@ export const offersData = [
     img: File,
     name: "Support 24/7",
   },
+  {
+    img: File,
+    name: "Support 24/7",
+  },
+  {
+    img: File,
+    name: "Support 24/7",
+  },
+  {
+    img: File,
+    name: "Support 24/7",
+  },
+  {
+    img: File,
+    name: "Support 24/7",
+  },
 ];

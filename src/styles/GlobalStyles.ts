@@ -1,11 +1,22 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    box-sizing: border-box;
+* {
+   box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+  body {
+   
     font-family: 'Roboto', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 
