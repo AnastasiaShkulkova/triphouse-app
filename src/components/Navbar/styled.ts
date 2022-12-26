@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// import '../../scss/_variables.scss';
 
 export const StyledNavbar = styled.div`
   padding: 57px 44px 20px 150px;

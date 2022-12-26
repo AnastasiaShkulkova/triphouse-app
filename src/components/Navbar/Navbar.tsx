@@ -8,6 +8,8 @@ const Navbar: React.FC<INavbarProps> = ({
   menuItems,
   userAvatar,
 }: INavbarProps) => {
+
+
   return (
     <StyledNavbar>
       <img src={NavbarLogo} alt="" className="navbar-logo" />
@@ -15,7 +17,9 @@ const Navbar: React.FC<INavbarProps> = ({
         <ul className="navbar-list list">
           {menuItems.map((item) => (
             <li key={Math.random()} className="list-item">
-              <Link to="/" className="item-link">{item}</Link>
+              <Link to="/" className="item-link">
+                {item}
+              </Link>
             </li>
           ))}
         </ul>

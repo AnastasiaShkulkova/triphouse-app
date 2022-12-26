@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -21,3 +21,8 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
+export const AppContainer = styled.div`
+width: 80%;
+margin: 0 auto;
+`
