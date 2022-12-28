@@ -21,7 +21,7 @@ const ReviewCard: React.FC<IReviewCardProps> = ({
           <h6 className="info-hotelname">{hotelName}</h6>
           <h6 className="info-hotellocation">{hotelLocation}</h6>
         </div>
-        <div className="info-container">
+        <div className="info-container flex-mark info">
           <h6 className="info-rating">{hotelRating}</h6>
           <p className="info-reviews">{hotelReviews}</p>
         </div>
@@ -30,8 +30,8 @@ const ReviewCard: React.FC<IReviewCardProps> = ({
         <div className="feedback-container">
           <img src={userIcon} alt="#" className="feedback-icon" />
           <ul className="feedback-user user">
-            <h6 className="iser-name">{userName}</h6>
-            <h6 className="iser-country">{userCountry}</h6>
+            <h6 className="user-name">{userName}</h6>
+            <h6 className="user-country">{userCountry}</h6>
           </ul>
         </div>
         <p className="feedback-text">{userFeedback}</p>
