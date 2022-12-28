@@ -1,24 +1,23 @@
-import File from '../assets/icons/support-icon.svg';
+import Support from "../assets/icons/support-icon.svg";
+import Message from "../assets/icons/message-icon.svg";
+import Devices from "../assets/icons/devices-icon.svg";
+import Rating from "../assets/icons/rating-icon.svg";
 
 export const offersData = [
   {
-    img: File,
+    img: Support,
     name: "Support 24/7",
   },
   {
-    img: File,
-    name: "Support 24/7",
+    img: Message,
+    name: "Communicate directly",
   },
   {
-    img: File,
-    name: "Support 24/7",
+    img: Devices,
+    name: "Book online",
   },
   {
-    img: File,
-    name: "Support 24/7",
-  },
-  {
-    img: File,
-    name: "Support 24/7",
+    img: Rating,
+    name: "Real guest reviews",
   },
 ];
